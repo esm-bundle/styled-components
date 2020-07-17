@@ -1,9 +1,9 @@
 {
-  "name": "@esm-bundle/autopublish-template",
-  "version": "20.0.0",
-  "description": "Repo to test esm-bundle's automatic publishing",
-  "main": "index.js",
-  "module": "esm/index.js",
+  "name": "@esm-bundle/styled-components",
+  "version": "0.0.0-unpublished.0",
+  "description": "Repo to autopublish esm-bundle version of styled-components",
+  "main": "esm/styled-components.js",
+  "module": "esm/styled-components.js",
   "type": "module",
   "scripts": {
     "test": "yarn build && concurrently -n w: 'yarn:test:*'",
@@ -27,16 +27,21 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/esm-bundle/autopublish-template.git"
+    "url": "git+https://github.com/esm-bundle/styled-components.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/esm-bundle/autopublish-template/issues"
+    "url": "https://github.com/esm-bundle/styled-components/issues"
   },
-  "homepage": "https://github.com/esm-bundle/autopublish-template#readme",
+  "homepage": "https://github.com/esm-bundle/styled-components#readme",
   "devDependencies": {
-    "autopublish-template": "20.0.0",
-    "esm-bundle-scripts": "1.2.0"
+    "@rollup/plugin-node-resolve": "^8.4.0",
+    "@rollup/plugin-replace": "^2.3.3",
+    "esm-bundle-scripts": "1.2.0",
+    "karma-parallel": "^0.3.1",
+    "react": "npm:@esm-bundle/react",
+    "react-is": "npm:@esm-bundle/react-is",
+    "styled-components": "^5.1.1"
   }
 }

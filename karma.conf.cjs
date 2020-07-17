@@ -8,11 +8,12 @@ module.exports = function(config) {
 
     // frameworks to use
     // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
-    frameworks: ["jasmine"],
+    frameworks: ["parallel", "jasmine"],
 
     // list of files / patterns to load in the browser
     files: [
       "https://cdn.jsdelivr.net/npm/systemjs/dist/system.js",
+      { pattern: "browser-test/systemjs-setup.js", watched: true },
       { pattern: "browser-test/**/*.js", watched: true, type: "module" },
       { pattern: "./**/*.*", watched: true, included: false, served: true }
     ],
@@ -54,6 +55,11 @@ module.exports = function(config) {
 
     // Concurrency level
     // how many browser should be started simultaneous
-    concurrency: Infinity
+    concurrency: Infinity,
+
+    // 
+    parallelOptions: {
+      executors: 2, // Defaults to cpu-count - 1
+    }
   });
 };
