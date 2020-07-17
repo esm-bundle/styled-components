@@ -4,23 +4,37 @@
 
 ["What is this" blog post](https://medium.com/@joeldenning/an-esm-bundle-for-any-npm-package-5f850db0e04d)
 
-[Instructions for creating a new esm-bundle repo](https://github.com/esm-bundle/new-repo-instructions)
-
-A repo that tests automatic detection of upstream publishes and the publishing of `@esm-bundle` versions of them.
+A repo that tests automatic detection of upstream publishes and the publishing of `@esm-bundle` versions of styled-components.
 
 Upstream repo at https://github.com/styled-components/styled-components.
 
 ## JS Delivr
 
-https://cdn.jsdelivr.net/npm/@esm-bundle/styled-components/esm/index.js
+### Production
 
-https://cdn.jsdelivr.net/npm/@esm-bundle/styled-components/system/index.js
+https://cdn.jsdelivr.net/npm/@esm-bundle/styled-components/esm/styled-components.min.js
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/styled-components/system/styled-components.min.js
+
+### Development
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/styled-components/esm/styled-components.js
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/styled-components/system/styled-components.js
 
 ## Unpkg
 
-https://unpkg.com/@esm-bundle/styled-components/esm/index.js
+### Production
 
-https://unpkg.com/@esm-bundle/styled-components/system/index.js
+https://unpkg.com/@esm-bundle/styled-components/esm/styled-components.min.js
+
+https://unpkg.com/@esm-bundle/styled-components/system/styled-components.min.js
+
+### Development
+
+https://unpkg.com/@esm-bundle/styled-components/esm/styled-components.js
+
+https://unpkg.com/@esm-bundle/styled-components/system/styled-components.js
 
 ## Npm
 
