@@ -1,9 +1,11 @@
-describe("@esm-bundle/styled-components", () => {
-  it("can load the ESM bundle", () => {
+describe("@esm-bundle/styled-components esm import", () => {
+  it("can load", () => {
     return import("/base/esm/styled-components.resolved.js");
   });
+});
 
-  it("can load the System.register bundle", () => {
+describe("@esm-bundle/styled-components System.register import", () => {
+  it("can load", () => {
     return System.import("/base/system/styled-components.js").then((module) => {
       expect(module.default).toBeDefined();
       expect(module.__esModule).toEqual(true);
