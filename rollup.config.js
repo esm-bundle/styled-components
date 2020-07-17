@@ -3,13 +3,15 @@ import commonjs from "@rollup/plugin-commonjs";
 import replace from "@rollup/plugin-replace";
 import { terser } from "rollup-plugin-terser";
 
-function createConfig(format, resolved = false) {
+function createConfig(format, options = {}) {
   const dir = format === "module" ? "esm" : format;
-
+  const { resolved = false, min = false } = options;
   return {
     input: `src/index.js`,
     output: {
-      file: `${dir}/index${resolved ? ".resolved" : ""}.js`,
+      file: `${dir}/styled-components${resolved ? ".resolved" : ""}${
+        min ? ".min" : ""
+      }.js`,
       sourcemap: true,
       format,
       paths: {
@@ -27,10 +29,12 @@ function createConfig(format, resolved = false) {
       commonjs(),
       replace({
         values: {
-          "process.env.NODE_ENV": JSON.stringify("production"),
+          "process.env.NODE_ENV": JSON.stringify(
+            min ? "production" : "development"
+          ),
         },
       }),
-      terser(),
+      min && terser(),
     ],
     external: ["react-is", "react"],
   };
@@ -38,6 +42,8 @@ function createConfig(format, resolved = false) {
 
 export default [
   createConfig("module"),
-  createConfig("module", true),
+  createConfig("module", { min: true }),
+  createConfig("module", { resolved: true }),
   createConfig("system"),
+  createConfig("system", { min: true }),
 ];
