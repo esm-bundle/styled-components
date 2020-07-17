@@ -1,7 +1,7 @@
 {
-  "name": "@esm-bundle/autopublish-template",
-  "version": "20.0.0",
-  "description": "Repo to test esm-bundle's automatic publishing",
+  "name": "@esm-bundle/styled-components",
+  "version": "0.0.0-unpublished.0",
+  "description": "Repo to autopublish esm-bundle version of styled-components",
   "main": "index.js",
   "module": "esm/index.js",
   "type": "module",
@@ -27,14 +27,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/esm-bundle/autopublish-template.git"
+    "url": "git+https://github.com/esm-bundle/styled-components.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/esm-bundle/autopublish-template/issues"
+    "url": "https://github.com/esm-bundle/styled-components/issues"
   },
-  "homepage": "https://github.com/esm-bundle/autopublish-template#readme",
+  "homepage": "https://github.com/esm-bundle/styled-components#readme",
   "devDependencies": {
     "autopublish-template": "20.0.0",
     "esm-bundle-scripts": "1.2.0"
