@@ -2,8 +2,8 @@
   "name": "@esm-bundle/styled-components",
   "version": "0.0.0-unpublished.0",
   "description": "Repo to autopublish esm-bundle version of styled-components",
-  "main": "esm/index.js",
-  "module": "esm/index.js",
+  "main": "esm/styled-components.js",
+  "module": "esm/styled-components.js",
   "type": "module",
   "scripts": {
     "test": "yarn build && concurrently -n w: 'yarn:test:*'",

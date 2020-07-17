@@ -1,10 +1,10 @@
 describe("@esm-bundle/styled-components", () => {
   it("can load the ESM bundle", () => {
-    return import("/base/esm/index.resolved.js");
+    return import("/base/esm/styled-components.resolved.js");
   });
 
   it("can load the System.register bundle", () => {
-    return System.import("/base/system/index.js").then((module) => {
+    return System.import("/base/system/styled-components.js").then((module) => {
       expect(module.default).toBeDefined();
       expect(module.__esModule).toEqual(true);
       // Default export
