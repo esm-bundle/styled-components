@@ -12,29 +12,29 @@ Upstream repo at https://github.com/styled-components/styled-components.
 
 ### Production
 
-https://cdn.jsdelivr.net/npm/@esm-bundle/styled-components/esm/styled-components.min.js
+https://cdn.jsdelivr.net/npm/@esm-bundle/styled-components/esm/styled-components.browser.min.js
 
-https://cdn.jsdelivr.net/npm/@esm-bundle/styled-components/system/styled-components.min.js
+https://cdn.jsdelivr.net/npm/@esm-bundle/styled-components/system/styled-components.browser.min.js
 
 ### Development
 
-https://cdn.jsdelivr.net/npm/@esm-bundle/styled-components/esm/styled-components.js
+https://cdn.jsdelivr.net/npm/@esm-bundle/styled-components/esm/styled-components.browser.js
 
-https://cdn.jsdelivr.net/npm/@esm-bundle/styled-components/system/styled-components.js
+https://cdn.jsdelivr.net/npm/@esm-bundle/styled-components/system/styled-components.browser.js
 
 ## Unpkg
 
 ### Production
 
-https://unpkg.com/@esm-bundle/styled-components/esm/styled-components.min.js
+https://unpkg.com/@esm-bundle/styled-components/esm/styled-components.browser.min.js
 
-https://unpkg.com/@esm-bundle/styled-components/system/styled-components.min.js
+https://unpkg.com/@esm-bundle/styled-components/system/styled-components.browser.min.js
 
 ### Development
 
-https://unpkg.com/@esm-bundle/styled-components/esm/styled-components.js
+https://unpkg.com/@esm-bundle/styled-components/esm/styled-components.browser.js
 
-https://unpkg.com/@esm-bundle/styled-components/system/styled-components.js
+https://unpkg.com/@esm-bundle/styled-components/system/styled-components.browser.js
 
 ## Npm
 

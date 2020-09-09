@@ -2,7 +2,7 @@
   "name": "@esm-bundle/styled-components",
   "version": "5.1.1",
   "description": "Repo to autopublish esm-bundle version of styled-components",
-  "main": "esm/styled-components.js",
+  "main": "esm/styled-components.browser.js",
   "module": "esm/styled-components.js",
   "type": "module",
   "scripts": {
@@ -42,6 +42,6 @@
     "karma-parallel": "0.3.1",
     "react": "npm:@esm-bundle/react",
     "react-is": "npm:@esm-bundle/react-is",
-    "styled-components": "5.1.1"
+    "styled-components": "5.2.0"
   }
 }
