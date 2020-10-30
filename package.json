@@ -1,6 +1,6 @@
 {
   "name": "@esm-bundle/styled-components",
-  "version": "5.2.0",
+  "version": "5.2.1",
   "description": "Repo to autopublish esm-bundle version of styled-components",
   "main": "esm/styled-components.browser.js",
   "module": "esm/styled-components.js",
