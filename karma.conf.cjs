@@ -8,7 +8,7 @@ module.exports = function(config) {
 
     // frameworks to use
     // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
-    frameworks: ["parallel", "jasmine"],
+    frameworks: ["jasmine"],
 
     // list of files / patterns to load in the browser
     files: [
@@ -16,6 +16,11 @@ module.exports = function(config) {
       { pattern: "browser-test/systemjs-setup.js", watched: true },
       { pattern: "browser-test/**/*.js", watched: true, type: "module" },
       { pattern: "./**/*.*", watched: true, included: false, served: true }
+    ],
+
+    plugins: [
+      'karma-jasmine',
+      'karma-firefox-launcher'
     ],
 
     urlRoot: "/",
