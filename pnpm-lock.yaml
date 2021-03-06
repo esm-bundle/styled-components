@@ -9,7 +9,7 @@ devDependencies:
   karma-firefox-launcher: 2.1.0
   karma-jasmine: 4.0.1_karma@6.1.1
   karma-parallel: 0.3.1_karma@6.1.1
-  mocha: 8.3.0
+  mocha: 8.3.1
   prettier: 2.2.1
   pretty-quick: 3.1.0_prettier@2.2.1
   react: /@esm-bundle/react/17.0.1-fix.0
@@ -2399,7 +2399,7 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-NKmAlESf6jMGym1++R0Ra7wvhV+wFW63FaSOFPwRahvea0gMUcGUhVeAg/0BC0wiv9ih5NYPB1Wn1UEI1/L+xQ==
-  /mocha/8.3.0:
+  /mocha/8.3.1:
     dependencies:
       '@ungap/promise-all-settled': 1.1.2
       ansi-colors: 4.1.1
@@ -2431,7 +2431,7 @@ packages:
       node: '>= 10.12.0'
     hasBin: true
     resolution:
-      integrity: sha512-TQqyC89V1J/Vxx0DhJIXlq9gbbL9XFNdeLQ1+JsnZsVaSOV1z3tWfw0qZmQJGQRIfkvZcs7snQnZnOCKoldq1Q==
+      integrity: sha512-5SBMxANWqOv5bw3Hx+HVgaWlcWcFEQDUdaUAr1AUU+qwtx6cowhn7gEDT/DwQP7uYxnvShdUOVLbTYAHOEGfDQ==
   /mri/1.1.6:
     dev: true
     engines:
@@ -3830,7 +3830,7 @@ specifiers:
   karma-firefox-launcher: 2.1.0
   karma-jasmine: 4.0.1
   karma-parallel: 0.3.1
-  mocha: 8.3.0
+  mocha: 8.3.1
   prettier: 2.2.1
   pretty-quick: 3.1.0
   react: npm:@esm-bundle/react
