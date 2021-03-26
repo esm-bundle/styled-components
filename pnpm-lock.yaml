@@ -1,6 +1,6 @@
 devDependencies:
   '@rollup/plugin-commonjs': 17.1.0_rollup@2.42.2
-  '@rollup/plugin-node-resolve': 11.2.0_rollup@2.42.2
+  '@rollup/plugin-node-resolve': 11.2.1_rollup@2.42.2
   '@rollup/plugin-replace': 2.4.1_rollup@2.42.2
   chai: 4.3.4
   concurrently: 6.0.0
@@ -12,13 +12,13 @@ devDependencies:
   mocha: 8.3.2
   prettier: 2.2.1
   pretty-quick: 3.1.0_prettier@2.2.1
-  react: /@esm-bundle/react/17.0.1-fix.0
+  react: /@esm-bundle/react/17.0.2-fix.0
   react-is: /@esm-bundle/react-is/17.0.1-fix.0
   release-it: 14.5.0
   release-it-plugin-esm-bundle: 2.1.0
   rollup: 2.42.2
   rollup-plugin-terser: 7.0.2_rollup@2.42.2
-  styled-components: 5.2.1_ef0fbb36ef658c6f13c6301ec67800b9
+  styled-components: 5.2.1_e108f4b177ebc0481c85327e825210a1
 lockfileVersion: 5.2
 packages:
   /@babel/code-frame/7.12.13:
@@ -140,10 +140,10 @@ packages:
     dev: true
     resolution:
       integrity: sha512-BJpJzmQ6ima+L2WS4DUAqzLn/tNO4FN3PqY4RAxBm6jy3uhiVLcOx5DfykmuswwYD7vPcuLKjBRNGuqQcSApiQ==
-  /@esm-bundle/react/17.0.1-fix.0:
+  /@esm-bundle/react/17.0.2-fix.0:
     dev: true
     resolution:
-      integrity: sha512-O6iqnEGZHh8xPsRtzo/66Gmqv5zQZqszD5nr5dgDnYq/pEGdb9X0RWTSVczT4e6XqJuVsG12uq4+H5Sw6qvegA==
+      integrity: sha512-Q9NmLtdlmbngYIRDHtatlt0yxolCfRxubUyDvQ2pMZJfw2b5JT7bSYWyCyLOC0vEIfuJCXrHxZ4cIYifLCkGVg==
   /@iarna/toml/2.2.5:
     dev: true
     resolution:
@@ -299,7 +299,7 @@ packages:
       rollup: ^2.30.0
     resolution:
       integrity: sha512-PoMdXCw0ZyvjpCMT5aV4nkL0QywxP29sODQsSGeDpr/oI49Qq9tRtAsb/LbYbDzFlOydVEqHmmZWFtXJEAX9ew==
-  /@rollup/plugin-node-resolve/11.2.0_rollup@2.42.2:
+  /@rollup/plugin-node-resolve/11.2.1_rollup@2.42.2:
     dependencies:
       '@rollup/pluginutils': 3.1.0_rollup@2.42.2
       '@types/resolve': 1.17.1
@@ -314,7 +314,7 @@ packages:
     peerDependencies:
       rollup: ^1.20.0||^2.0.0
     resolution:
-      integrity: sha512-qHjNIKYt5pCcn+5RUBQxK8krhRvf1HnyVgUCcFFcweDS7fhkOLZeYh0mhHK6Ery8/bb9tvN/ubPzmfF0qjDCTA==
+      integrity: sha512-yc2n43jcqVyGE2sqV5/YCmocy9ArjVAP/BeXyTtADTBBX6V0e5UMqwO8CdQ0kzjb6zu5P1qMzsScCMRvE9OlVg==
   /@rollup/plugin-replace/2.4.1_rollup@2.42.2:
     dependencies:
       '@rollup/pluginutils': 3.1.0_rollup@2.42.2
@@ -572,7 +572,7 @@ packages:
       '@babel/helper-module-imports': 7.12.13
       babel-plugin-syntax-jsx: 6.18.0
       lodash: 4.17.21
-      styled-components: 5.2.1_ef0fbb36ef658c6f13c6301ec67800b9
+      styled-components: 5.2.1_e108f4b177ebc0481c85327e825210a1
     dev: true
     peerDependencies:
       styled-components: '>= 2'
@@ -3410,7 +3410,7 @@ packages:
       node: '>=8'
     resolution:
       integrity: sha512-6fPc+R4ihwqP6N/aIv2f1gMH8lOVtWQHoqC4yK6oSDVVocumAsfCqjkXnqiYMhmMwS/mEHLp7Vehlt3ql6lEig==
-  /styled-components/5.2.1_ef0fbb36ef658c6f13c6301ec67800b9:
+  /styled-components/5.2.1_e108f4b177ebc0481c85327e825210a1:
     dependencies:
       '@babel/helper-module-imports': 7.12.13
       '@babel/traverse': 7.13.0_supports-color@5.5.0
@@ -3420,7 +3420,7 @@ packages:
       babel-plugin-styled-components: 1.12.0_styled-components@5.2.1
       css-to-react-native: 3.0.0
       hoist-non-react-statics: 3.3.2
-      react: /@esm-bundle/react/17.0.1-fix.0
+      react: /@esm-bundle/react/17.0.2-fix.0
       react-is: /@esm-bundle/react-is/17.0.1-fix.0
       shallowequal: 1.1.0
       supports-color: 5.5.0
@@ -3849,7 +3849,7 @@ packages:
       integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
 specifiers:
   '@rollup/plugin-commonjs': 17.1.0
-  '@rollup/plugin-node-resolve': 11.2.0
+  '@rollup/plugin-node-resolve': 11.2.1
   '@rollup/plugin-replace': 2.4.1
   chai: 4.3.4
   concurrently: 6.0.0
