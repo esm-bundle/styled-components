@@ -50,7 +50,7 @@
     "react-is": "npm:@esm-bundle/react-is",
     "release-it": "14.6.1",
     "release-it-plugin-esm-bundle": "2.1.0",
-    "rollup": "2.46.0",
+    "rollup": "2.47.0",
     "rollup-plugin-terser": "7.0.2",
     "styled-components": "5.2.3"
   }
