@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@rollup/plugin-commonjs': 18.0.0
+  '@rollup/plugin-commonjs': 18.1.0
   '@rollup/plugin-node-resolve': 13.0.0
   '@rollup/plugin-replace': 2.4.2
   chai: 4.3.4
@@ -23,7 +23,7 @@ specifiers:
   styled-components: 5.2.3
 
 devDependencies:
-  '@rollup/plugin-commonjs': 18.0.0_rollup@2.47.0
+  '@rollup/plugin-commonjs': 18.1.0_rollup@2.47.0
   '@rollup/plugin-node-resolve': 13.0.0_rollup@2.47.0
   '@rollup/plugin-replace': 2.4.2_rollup@2.47.0
   chai: 4.3.4
@@ -293,8 +293,8 @@ packages:
       '@octokit/openapi-types': 6.0.0
     dev: true
 
-  /@rollup/plugin-commonjs/18.0.0_rollup@2.47.0:
-    resolution: {integrity: sha512-fj92shhg8luw7XbA0HowAqz90oo7qtLGwqTKbyZ8pmOyH8ui5e+u0wPEgeHLH3djcVma6gUCUrjY6w5R2o1u6g==}
+  /@rollup/plugin-commonjs/18.1.0_rollup@2.47.0:
+    resolution: {integrity: sha512-h3e6T9rUxVMAQswpDIobfUHn/doMzM9sgkMrsMWCFLmB84PSoC8mV8tOloAJjSRwdqhXBqstlX2BwBpHJvbhxg==}
     engines: {node: '>= 8.0.0'}
     peerDependencies:
       rollup: ^2.30.0
