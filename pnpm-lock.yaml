@@ -16,7 +16,7 @@ specifiers:
   pretty-quick: 3.1.1
   react: npm:@esm-bundle/react
   react-is: npm:@esm-bundle/react-is
-  release-it: 14.10.1
+  release-it: 14.11.0
   release-it-plugin-esm-bundle: 2.1.0
   rollup: 2.56.0
   rollup-plugin-terser: 7.0.2
@@ -38,7 +38,7 @@ devDependencies:
   pretty-quick: 3.1.1_prettier@2.3.2
   react: /@esm-bundle/react/17.0.2-fix.0
   react-is: /@esm-bundle/react-is/17.0.1-fix.0
-  release-it: 14.10.1
+  release-it: 14.11.0
   release-it-plugin-esm-bundle: 2.1.0
   rollup: 2.56.0
   rollup-plugin-terser: 7.0.2_rollup@2.56.0
@@ -206,7 +206,7 @@ packages:
       '@octokit/graphql': 4.6.0
       '@octokit/request': 5.6.0
       '@octokit/request-error': 2.1.0
-      '@octokit/types': 6.16.4
+      '@octokit/types': 6.21.1
       before-after-hook: 2.2.2
       universal-user-agent: 6.0.0
     dev: true
@@ -227,10 +227,6 @@ packages:
       universal-user-agent: 6.0.0
     dev: true
 
-  /@octokit/openapi-types/7.3.2:
-    resolution: {integrity: sha512-oJhK/yhl9Gt430OrZOzAl2wJqR0No9445vmZ9Ey8GjUZUpwuu/vmEFP0TDhDXdpGDoxD6/EIFHJEcY8nHXpDTA==}
-    dev: true
-
   /@octokit/openapi-types/9.1.1:
     resolution: {integrity: sha512-xmyPP9tVb4T4A6Lk6SL6ScnIqAHpPV4jfMZI8VtY286212ri9J/6IFGuLsZ26daADUmriuLejake4k+azEfnaw==}
     dev: true
@@ -241,7 +237,7 @@ packages:
       '@octokit/core': '>=2'
     dependencies:
       '@octokit/core': 3.5.1
-      '@octokit/types': 6.16.4
+      '@octokit/types': 6.21.1
     dev: true
 
   /@octokit/plugin-request-log/1.0.3_@octokit+core@3.5.1:
@@ -288,12 +284,6 @@ packages:
       '@octokit/plugin-paginate-rest': 2.11.0_@octokit+core@3.5.1
       '@octokit/plugin-request-log': 1.0.3_@octokit+core@3.5.1
       '@octokit/plugin-rest-endpoint-methods': 5.5.1_@octokit+core@3.5.1
-    dev: true
-
-  /@octokit/types/6.16.4:
-    resolution: {integrity: sha512-UxhWCdSzloULfUyamfOg4dJxV9B+XjgrIZscI0VCbp4eNrjmorGEw+4qdwcpTsu6DIrm9tQsFQS2pK5QkqQ04A==}
-    dependencies:
-      '@octokit/openapi-types': 7.3.2
     dev: true
 
   /@octokit/types/6.21.1:
@@ -1141,6 +1131,11 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
+  /define-lazy-prop/2.0.0:
+    resolution: {integrity: sha512-Ds09qNh8yw3khSjiJjiUInaGX9xlqZDY7JVryGxdxV7NPeuqQfplOpQ66yJFZut3jLa5zOwkXw1g9EI2uKh4Og==}
+    engines: {node: '>=8'}
+    dev: true
+
   /delayed-stream/1.0.0:
     resolution: {integrity: sha1-3zrhmayt+31ECqrgsp4icrJOxhk=}
     engines: {node: '>=0.4.0'}
@@ -1376,7 +1371,7 @@ packages:
     dependencies:
       '@nodelib/fs.stat': 2.0.4
       '@nodelib/fs.walk': 1.2.6
-      glob-parent: 5.1.1
+      glob-parent: 5.1.2
       merge2: 1.4.1
       micromatch: 4.0.2
       picomatch: 2.2.2
@@ -2400,6 +2395,13 @@ packages:
     resolution: {integrity: sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==}
     dev: true
 
+  /new-github-release-url/1.0.0:
+    resolution: {integrity: sha512-dle7yf655IMjyFUqn6Nxkb18r4AOAkzRcgcZv6WZ0IqrOH4QCEZ8Sm6I7XX21zvHdBeeMeTkhR9qT2Z0EJDx6A==}
+    engines: {node: '>=10'}
+    dependencies:
+      type-fest: 0.4.1
+    dev: true
+
   /node-fetch/2.6.1:
     resolution: {integrity: sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==}
     engines: {node: 4.x || >=6.0.0}
@@ -2466,6 +2468,15 @@ packages:
     engines: {node: '>=6'}
     dependencies:
       mimic-fn: 2.1.0
+    dev: true
+
+  /open/8.2.1:
+    resolution: {integrity: sha512-rXILpcQlkF/QuFez2BJDf3GsqpjGKbkUUToAIGo9A0Q6ZkoSGogZJulrUdwRkrAsoQvoZsrjCYt8+zblOk7JQQ==}
+    engines: {node: '>=12'}
+    dependencies:
+      define-lazy-prop: 2.0.0
+      is-docker: 2.1.1
+      is-wsl: 2.2.0
     dev: true
 
   /optionator/0.8.3:
@@ -2815,8 +2826,8 @@ packages:
     resolution: {integrity: sha512-AWnkgV488lCVqrUX69PppbdtfuHANXBPIpozr9NbjNp+MZTKtFeBvu8+bSwzxY3EUn0vCOa3MEXTi15eUc+d3A==}
     dev: true
 
-  /release-it/14.10.1:
-    resolution: {integrity: sha512-uC+LtV9vlcFOAkclJYnANNlufLoESZPjC5wGeKoW/Y91jJp0bfQv6/iU44a7rmZ4LHy3q52JD54jNe45RUOPYw==}
+  /release-it/14.11.0:
+    resolution: {integrity: sha512-JS4THLhJyNvjSj3jKZzjLe0Va8RKbf2FdrxL3rhLMug8zGERNxhDdsd52cbKTdhnxKo/OxntjdnK92xyZbnxTw==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
@@ -2838,6 +2849,8 @@ packages:
       is-ci: 3.0.0
       lodash: 4.17.21
       mime-types: 2.1.31
+      new-github-release-url: 1.0.0
+      open: 8.2.1
       ora: 5.4.1
       os-name: 4.0.0
       parse-json: 5.2.0
@@ -3380,6 +3393,11 @@ packages:
   /type-fest/0.20.2:
     resolution: {integrity: sha512-Ne+eE4r0/iWnpAxD852z3A+N0Bt5RN//NjJwRd2VFHEmrywxf5vsZlh4R6lixl6B+wz/8d+maTSAkN1FIkI3LQ==}
     engines: {node: '>=10'}
+    dev: true
+
+  /type-fest/0.4.1:
+    resolution: {integrity: sha512-IwzA/LSfD2vC1/YDYMv/zHP4rDF1usCwllsDpbolT3D4fUepIO7f9K70jjmUewU/LmGUKJcwcVtDCpnKk4BPMw==}
+    engines: {node: '>=6'}
     dev: true
 
   /type-fest/0.6.0:
