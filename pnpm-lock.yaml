@@ -20,7 +20,7 @@ specifiers:
   release-it-plugin-esm-bundle: 2.1.0
   rollup: 2.56.3
   rollup-plugin-terser: 7.0.2
-  styled-components: 5.3.0
+  styled-components: 5.3.1
 
 devDependencies:
   '@rollup/plugin-commonjs': 20.0.0_rollup@2.56.3
@@ -42,7 +42,7 @@ devDependencies:
   release-it-plugin-esm-bundle: 2.1.0
   rollup: 2.56.3
   rollup-plugin-terser: 7.0.2_rollup@2.56.3
-  styled-components: 5.3.0_04fa5f69d86bf742f5183d418a375b54
+  styled-components: 5.3.1_04fa5f69d86bf742f5183d418a375b54
 
 packages:
 
@@ -127,7 +127,7 @@ packages:
       '@babel/helper-split-export-declaration': 7.12.13
       '@babel/parser': 7.13.4
       '@babel/types': 7.13.0
-      debug: 4.3.1_supports-color@5.5.0
+      debug: 4.3.2_supports-color@5.5.0
       globals: 11.12.0
       lodash: 4.17.21
     transitivePeerDependencies:
@@ -564,7 +564,7 @@ packages:
     resolution: {integrity: sha1-x57Zf380y48robyXkLzDZkdLS3k=}
     dev: true
 
-  /babel-plugin-styled-components/1.12.0_styled-components@5.3.0:
+  /babel-plugin-styled-components/1.12.0_styled-components@5.3.1:
     resolution: {integrity: sha512-FEiD7l5ZABdJPpLssKXjBUJMYqzbcNzBowfXDCdJhOpbhWiewapUaY+LZGT8R4Jg2TwOjGjG4RKeyrO5p9sBkA==}
     peerDependencies:
       styled-components: '>= 2'
@@ -573,7 +573,7 @@ packages:
       '@babel/helper-module-imports': 7.12.13
       babel-plugin-syntax-jsx: 6.18.0
       lodash: 4.17.21
-      styled-components: 5.3.0_04fa5f69d86bf742f5183d418a375b54
+      styled-components: 5.3.1_04fa5f69d86bf742f5183d418a375b54
     dev: true
 
   /babel-plugin-syntax-jsx/6.18.0:
@@ -1041,19 +1041,6 @@ packages:
       ms: 2.1.2
     dev: true
 
-  /debug/4.3.1_supports-color@5.5.0:
-    resolution: {integrity: sha512-doEwdvm4PCeK4K3RQN2ZC2BYUBaxwLARCqZmMjtF8a51J2Rb0xpVloFRnCODwqjpwnAoao4pelN8l3RJdv3gRQ==}
-    engines: {node: '>=6.0'}
-    peerDependencies:
-      supports-color: '*'
-    peerDependenciesMeta:
-      supports-color:
-        optional: true
-    dependencies:
-      ms: 2.1.2
-      supports-color: 5.5.0
-    dev: true
-
   /debug/4.3.1_supports-color@8.1.1:
     resolution: {integrity: sha512-doEwdvm4PCeK4K3RQN2ZC2BYUBaxwLARCqZmMjtF8a51J2Rb0xpVloFRnCODwqjpwnAoao4pelN8l3RJdv3gRQ==}
     engines: {node: '>=6.0'}
@@ -1077,6 +1064,19 @@ packages:
         optional: true
     dependencies:
       ms: 2.1.2
+    dev: true
+
+  /debug/4.3.2_supports-color@5.5.0:
+    resolution: {integrity: sha512-mOp8wKcvj7XxC78zLgw/ZA+6TSgkoE2C/ienthhRD298T7UNwAg9diBpLRxC0mOezLl4B0xV7M0cCO6P/O0Xhw==}
+    engines: {node: '>=6.0'}
+    peerDependencies:
+      supports-color: '*'
+    peerDependenciesMeta:
+      supports-color:
+        optional: true
+    dependencies:
+      ms: 2.1.2
+      supports-color: 5.5.0
     dev: true
 
   /decamelize/4.0.0:
@@ -3261,8 +3261,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /styled-components/5.3.0_04fa5f69d86bf742f5183d418a375b54:
-    resolution: {integrity: sha512-bPJKwZCHjJPf/hwTJl6TbkSZg/3evha+XPEizrZUGb535jLImwDUdjTNxXqjjaASt2M4qO4AVfoHJNe3XB/tpQ==}
+  /styled-components/5.3.1_04fa5f69d86bf742f5183d418a375b54:
+    resolution: {integrity: sha512-JThv2JRzyH0NOIURrk9iskdxMSAAtCfj/b2Sf1WJaCUsloQkblepy1jaCLX/bYE+mhYo3unmwVSI9I5d9ncSiQ==}
     engines: {node: '>=10'}
     peerDependencies:
       react: '>= 16.8.0'
@@ -3274,7 +3274,7 @@ packages:
       '@emotion/is-prop-valid': 0.8.8
       '@emotion/stylis': 0.8.5
       '@emotion/unitless': 0.7.5
-      babel-plugin-styled-components: 1.12.0_styled-components@5.3.0
+      babel-plugin-styled-components: 1.12.0_styled-components@5.3.1
       css-to-react-native: 3.0.0
       hoist-non-react-statics: 3.3.2
       react: /@esm-bundle/react/17.0.2-fix.0
