@@ -12,7 +12,7 @@ specifiers:
   karma-jasmine: 4.0.1
   karma-parallel: 0.3.1
   mocha: 9.1.1
-  prettier: 2.4.0
+  prettier: 2.4.1
   pretty-quick: 3.1.1
   react: npm:@esm-bundle/react
   react-is: npm:@esm-bundle/react-is
@@ -34,8 +34,8 @@ devDependencies:
   karma-jasmine: 4.0.1_karma@6.3.4
   karma-parallel: 0.3.1_karma@6.3.4
   mocha: 9.1.1
-  prettier: 2.4.0
-  pretty-quick: 3.1.1_prettier@2.4.0
+  prettier: 2.4.1
+  pretty-quick: 3.1.1_prettier@2.4.1
   react: /@esm-bundle/react/17.0.2-fix.0
   react-is: /@esm-bundle/react-is/17.0.1-fix.0
   release-it: 14.11.5
@@ -1483,6 +1483,7 @@ packages:
     resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -2661,13 +2662,13 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /prettier/2.4.0:
-    resolution: {integrity: sha512-DsEPLY1dE5HF3BxCRBmD4uYZ+5DCbvatnolqTqcxEgKVZnL2kUfyu7b8pPQ5+hTBkdhU9SLUmK0/pHb07RE4WQ==}
+  /prettier/2.4.1:
+    resolution: {integrity: sha512-9fbDAXSBcc6Bs1mZrDYb3XKzDLm4EXXL9sC1LqKP5rZkT6KRr/rf9amVUcODVXgguK/isJz0d0hP72WeaKWsvA==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
 
-  /pretty-quick/3.1.1_prettier@2.4.0:
+  /pretty-quick/3.1.1_prettier@2.4.1:
     resolution: {integrity: sha512-ZYLGiMoV2jcaas3vTJrLvKAYsxDoXQBUn8OSTxkl67Fyov9lyXivJTl0+2WVh+y6EovGcw7Lm5ThYpH+Sh3XxQ==}
     engines: {node: '>=10.13'}
     hasBin: true
@@ -2680,7 +2681,7 @@ packages:
       ignore: 5.1.8
       mri: 1.1.6
       multimatch: 4.0.0
-      prettier: 2.4.0
+      prettier: 2.4.1
     dev: true
 
   /protocols/1.4.8:
@@ -3113,6 +3114,7 @@ packages:
   /source-map/0.2.0:
     resolution: {integrity: sha1-2rc/vPwrqBm03gO9b26qSBZLP50=}
     engines: {node: '>=0.8.0'}
+    requiresBuild: true
     dependencies:
       amdefine: 1.0.1
     dev: true
@@ -3428,6 +3430,7 @@ packages:
     resolution: {integrity: sha512-fvBeuXOsvqjecUtF/l1dwsrrf5y2BCUk9AOJGzGcm6tE7vegku5u/YvqjyDaAGr422PLoLnrxg3EnRvTqsdC1w==}
     engines: {node: '>=0.8.0'}
     hasBin: true
+    requiresBuild: true
     dev: true
     optional: true
 
