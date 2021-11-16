@@ -13,7 +13,7 @@ specifiers:
   karma-parallel: 0.3.1
   mocha: 9.1.3
   prettier: 2.4.1
-  pretty-quick: 3.1.1
+  pretty-quick: 3.1.2
   react: npm:@esm-bundle/react
   react-is: npm:@esm-bundle/react-is
   release-it: 14.11.7
@@ -35,7 +35,7 @@ devDependencies:
   karma-parallel: 0.3.1_karma@6.3.8
   mocha: 9.1.3
   prettier: 2.4.1
-  pretty-quick: 3.1.1_prettier@2.4.1
+  pretty-quick: 3.1.2_prettier@2.4.1
   react: /@esm-bundle/react/17.0.2-fix.0
   react-is: /@esm-bundle/react-is/17.0.1-fix.0
   release-it: 14.11.7
@@ -2585,8 +2585,8 @@ packages:
     hasBin: true
     dev: true
 
-  /pretty-quick/3.1.1_prettier@2.4.1:
-    resolution: {integrity: sha512-ZYLGiMoV2jcaas3vTJrLvKAYsxDoXQBUn8OSTxkl67Fyov9lyXivJTl0+2WVh+y6EovGcw7Lm5ThYpH+Sh3XxQ==}
+  /pretty-quick/3.1.2_prettier@2.4.1:
+    resolution: {integrity: sha512-T+fpTJrDjTzewql4p3lKrRA7z3MrNyjBK1MKeaBm5PpKwATgVm885TpY7TgY8KFt5Q1Qn3QDseRQcyX9AKTKkA==}
     engines: {node: '>=10.13'}
     hasBin: true
     peerDependencies:
