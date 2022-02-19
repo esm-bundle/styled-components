@@ -11,7 +11,7 @@ specifiers:
   karma-firefox-launcher: 2.1.2
   karma-jasmine: 4.0.1
   karma-parallel: 0.3.1
-  mocha: 9.2.0
+  mocha: 9.2.1
   prettier: 2.5.1
   pretty-quick: 3.1.3
   react: npm:@esm-bundle/react
@@ -33,7 +33,7 @@ devDependencies:
   karma-firefox-launcher: 2.1.2
   karma-jasmine: 4.0.1_karma@6.3.16
   karma-parallel: 0.3.1_karma@6.3.16
-  mocha: 9.2.0
+  mocha: 9.2.1
   prettier: 2.5.1
   pretty-quick: 3.1.3_prettier@2.5.1
   react: /@esm-bundle/react/17.0.2-fix.1
@@ -2248,8 +2248,8 @@ packages:
       minimist: 1.2.5
     dev: true
 
-  /mocha/9.2.0:
-    resolution: {integrity: sha512-kNn7E8g2SzVcq0a77dkphPsDSN7P+iYkqE0ZsGCYWRsoiKjOt+NvXfaagik8vuDa6W5Zw3qxe8Jfpt5qKf+6/Q==}
+  /mocha/9.2.1:
+    resolution: {integrity: sha512-T7uscqjJVS46Pq1XDXyo9Uvey9gd3huT/DD9cYBb4K2Xc/vbKRPUWK067bxDQRK0yIz6Jxk73IrnimvASzBNAQ==}
     engines: {node: '>= 12.0.0'}
     hasBin: true
     dependencies:
