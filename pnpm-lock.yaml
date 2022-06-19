@@ -17,7 +17,7 @@ specifiers:
   react: npm:@esm-bundle/react
   react-is: npm:@esm-bundle/react-is
   release-it: 15.0.0
-  release-it-plugin-esm-bundle: 2.1.0
+  release-it-plugin-esm-bundle: 3.0.0
   rollup: 2.75.6
   rollup-plugin-terser: 7.0.2
   styled-components: 5.3.5
@@ -37,12 +37,12 @@ devDependencies:
   prettier: 2.7.1
   pretty-quick: 3.1.3_prettier@2.7.1
   react: /@esm-bundle/react/17.0.2-fix.1
-  react-is: /@esm-bundle/react-is/18.1.0
+  react-is: /@esm-bundle/react-is/18.2.0
   release-it: 15.0.0
-  release-it-plugin-esm-bundle: 2.1.0
+  release-it-plugin-esm-bundle: 3.0.0_release-it@15.0.0
   rollup: 2.75.6
   rollup-plugin-terser: 7.0.2_rollup@2.75.6
-  styled-components: 5.3.5_831d20d547a8381eaacfb75186cca5c1
+  styled-components: 5.3.5_5af383e12b589ee522b578fc06117a53
 
 packages:
 
@@ -167,8 +167,8 @@ packages:
     resolution: {integrity: sha512-OWORNpfjMsSSUBVrRBVGECkhWcULOAJz9ZW8uK9qgxD+87M7jHRcvh/A96XXNhXTLmKcoYSQtBEX7lHMO7YRwg==}
     dev: true
 
-  /@esm-bundle/react-is/18.1.0:
-    resolution: {integrity: sha512-+wgh0JlDoD42RtYIIYfTz28czgf4SAOpaUsFQ0xe+pNHhvtBj5XL1qDUfSH1JxGzt7w9aPgRRXMSIggU/aZnQg==}
+  /@esm-bundle/react-is/18.2.0:
+    resolution: {integrity: sha512-ebpdiqTFWTmlhO+a7DzxbToUNDs0LnDQ5hkqP4H5mMZshaxFcu7metRQ6vjY3Ycr7mcYsM9uTx8csee2Ma2HnA==}
     dev: true
 
   /@esm-bundle/react/17.0.2-fix.1:
@@ -620,7 +620,7 @@ packages:
       '@babel/helper-module-imports': 7.12.13
       babel-plugin-syntax-jsx: 6.18.0
       lodash: 4.17.21
-      styled-components: 5.3.5_831d20d547a8381eaacfb75186cca5c1
+      styled-components: 5.3.5_5af383e12b589ee522b578fc06117a53
     dev: true
 
   /babel-plugin-syntax-jsx/6.18.0:
@@ -3321,8 +3321,12 @@ packages:
       rc: 1.2.8
     dev: true
 
-  /release-it-plugin-esm-bundle/2.1.0:
-    resolution: {integrity: sha512-AWnkgV488lCVqrUX69PppbdtfuHANXBPIpozr9NbjNp+MZTKtFeBvu8+bSwzxY3EUn0vCOa3MEXTi15eUc+d3A==}
+  /release-it-plugin-esm-bundle/3.0.0_release-it@15.0.0:
+    resolution: {integrity: sha512-3N85d6C37Dk1ArUazjOz4nwubOGZS6fL7QLG1Hr0ZXAz7CDLiBfEeq3VccHkT8U0Ho797gWDA2FY36kVDmmpHw==}
+    peerDependencies:
+      release-it: '>=15.0.0'
+    dependencies:
+      release-it: 15.0.0
     dev: true
 
   /release-it/15.0.0:
@@ -3773,7 +3777,7 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /styled-components/5.3.5_831d20d547a8381eaacfb75186cca5c1:
+  /styled-components/5.3.5_5af383e12b589ee522b578fc06117a53:
     resolution: {integrity: sha512-ndETJ9RKaaL6q41B69WudeqLzOpY1A/ET/glXkNZ2T7dPjPqpPCXXQjDFYZWwNnE5co0wX+gTCqx9mfxTmSIPg==}
     engines: {node: '>=10'}
     requiresBuild: true
@@ -3791,7 +3795,7 @@ packages:
       css-to-react-native: 3.0.0
       hoist-non-react-statics: 3.3.2
       react: /@esm-bundle/react/17.0.2-fix.1
-      react-is: /@esm-bundle/react-is/18.1.0
+      react-is: /@esm-bundle/react-is/18.2.0
       shallowequal: 1.1.0
       supports-color: 5.5.0
     dev: true
