@@ -20,7 +20,7 @@ specifiers:
   release-it-plugin-esm-bundle: 3.0.0
   rollup: 2.79.1
   rollup-plugin-terser: 7.0.2
-  styled-components: 6.0.2
+  styled-components: 6.0.3
 
 devDependencies:
   '@rollup/plugin-commonjs': 25.0.2_rollup@2.79.1
@@ -42,7 +42,7 @@ devDependencies:
   release-it-plugin-esm-bundle: 3.0.0_release-it@16.0.0
   rollup: 2.79.1
   rollup-plugin-terser: 7.0.2_rollup@2.79.1
-  styled-components: 6.0.2_@esm-bundle+react@17.0.2-fix.1
+  styled-components: 6.0.3_@esm-bundle+react@17.0.2-fix.1
 
 packages:
 
@@ -5274,8 +5274,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /styled-components/6.0.2_@esm-bundle+react@17.0.2-fix.1:
-    resolution: {integrity: sha512-CRWTuYme0W4zVqzXpODByyocgVbBpRoXmaEgPGb67dvweV1igp7Ik4Z5C9e83wZ2l2hPg/XKV7cjuNxhRlC7Mg==}
+  /styled-components/6.0.3_@esm-bundle+react@17.0.2-fix.1:
+    resolution: {integrity: sha512-qEyWvDK4CYCyDckNIruRJIcQSvcUR3dVEw/fwxu1v0LFzUMPr2uf5PhXHp17FkGK+S4TkglOS+XIealo1MssQA==}
     engines: {node: '>= 16'}
     peerDependencies:
       babel-plugin-styled-components: '>= 2'
